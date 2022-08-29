@@ -17,7 +17,7 @@
         <script defer src="./js/jquery-2.1.0.js"></script>
         <script defer src="./js/bootstrap.js"></script>
         <script defer src="./js/blocs.js"></script>
-        <script defer src="./js/jquery.touchSwipe.js" defer></script>
+        <script defer src="./js/jquery.touchSwipe.js"></script>
         <script defer src="./js/gmaps.js"></script>
 
         <title>
@@ -55,11 +55,9 @@
                     >
                         <ul class="site-navigation nav navbar-nav">
                             <li>
-                                <a href="index.html">Accueil</a>
-                            </li>
-                            <li></li>
-                            <li>
-                                <a href="page2.html">Contact</a>
+                                <a id="nav-contact" href="page2.html"
+                                    >Contact</a
+                                >
                             </li>
                         </ul>
                     </div>
@@ -306,7 +304,7 @@
             id="bloc-5-cta"
         >
             <div class="container bloc-lg">
-                <h2 class="mg-md text-center tc-white">
+                <h2 id="last-h2-index" class="mg-md text-center tc-white">
                     Prêt pour redonner vie à votre projet ?<br />Contactez notre
                     équipe !
                 </h2>
@@ -322,12 +320,12 @@
         <!-- bloc-5-cta END -->
 
         <!-- Footer - bloc-8 -->
-        <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-            <div class="container bloc-sm">
+        <footer class="bloc bgc-atomic-tangerine d-bloc">
+            <div id="footer" class="container bloc-sm">
                 <p class="text-center white">
                     Agence La Panthère - Agence web basée à Lyon.<br />
                 </p>
-                <div class="row row-no-gutters social">
+                <div id="container-social" class="row row-no-gutters social">
                     <div class="col-sm-3">
                         <div class="text-center">
                             <a class="social" href="https://twitter.com/"
